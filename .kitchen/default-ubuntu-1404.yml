@@ -1,0 +1,6 @@
+---
+hostname: 127.0.0.1
+port: '2200'
+username: vagrant
+ssh_key: "/home/samanth/newtestpostgres/cic-postgres/.kitchen/kitchen-vagrant/kitchen-cic-postgres-default-ubuntu-1404/.vagrant/machines/default/virtualbox/private_key"
+last_action: converge

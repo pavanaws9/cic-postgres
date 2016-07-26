@@ -1,0 +1,37 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    apt (4.0.1)
+      compat_resource (>= 12.10)
+    build-essential (6.0.1)
+      compat_resource (>= 12.10)
+      mingw (>= 1.1)
+      seven_zip (>= 0.0.0)
+    chef-sugar (3.4.0)
+    chef_handler (1.4.0)
+    compat_resource (12.10.7)
+    mingw (1.2.2)
+      compat_resource (>= 0.0.0)
+      seven_zip (>= 0.0.0)
+    minitest-handler (1.5.0)
+      chef_handler (>= 0.0.0)
+    openssl (4.4.0)
+      chef-sugar (>= 3.1.1)
+    seven_zip (2.0.1)
+      windows (>= 1.2.2)
+    windows (1.44.1)
+      chef_handler (>= 0.0.0)
+
+PATH
+  remote: .
+  specs:
+    postgresql (4.0.7)
+      apt (>= 1.9.0)
+      build-essential (>= 0.0.0)
+      openssl (~> 4.0)
+
+DEPENDENCIES
+  build-essential (>= 0)
+  minitest-handler (>= 0)
+  postgresql (>= 0)
+
